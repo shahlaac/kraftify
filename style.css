@@ -1,0 +1,137 @@
+@keyframes scroll-x {
+    0%   { transform: translateX(0); }
+    20%  { transform: translateX(0); }
+  
+    25%  { transform: translateX(-800px); }
+    45%  { transform: translateX(-800px); }
+  
+    50%  { transform: translateX(-1600px); }
+    70%  { transform: translateX(-1600px); }
+  
+    75%  { transform: translateX(-2400px); }
+    95%  { transform: translateX(-2400px); }
+  
+    /* 100% { transform: translateX(0); } */
+  }
+  
+  
+  .animate-scroll-x {
+    animation: scroll-x 60s infinite ease-in-out;
+  }
+ 
+  .rotate-hover {
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+  }
+  .rotate-hover:hover {
+    transform: rotateY(180deg);
+  }
+  
+*{
+    
+    font-family: "Bodoni Moda", serif;
+
+
+}
+body{
+       background-color: rgba(226, 209, 205, 0.514);
+       color: #7d420f;
+
+}
+
+#carousal img{
+    height: 600px;
+    width: 700px;
+}
+.carousel-inner{
+    border-radius: 20px;
+}
+#intoimg{
+    border-radius: 30px;
+    padding-left: 10px;
+}
+#imgtext{
+    position: absolute;
+    top:50px ;
+    left: 300px;
+    /* right: 100px; */
+    background: none;
+    text-shadow: 2px 3px 3px rgb(126, 116, 116);
+    color: rgb(86, 8, 8);
+}
+#shopnow{
+    position: absolute;
+    color: rgb(86, 8, 8);
+    background: none;
+    text-shadow: 2px 3px 3px rgb(126, 116, 116);
+
+}
+#jute,#juteshop{
+    color: white;
+    position: absolute;
+    background: none;
+    text-shadow: 2px 3px 3px rgb(126, 116, 116);
+}
+#hr{
+    color: white;
+}
+#premium,#limited,#wooden,#hr1,#shop3{
+    background : none;
+    color: rgb(86, 8, 8);;
+    text-shadow: 2px 3px 3px rgb(126, 116, 116);
+    
+}
+#seller{
+    color: #e16874;
+
+}
+#icons i{
+    color: white;
+
+}
+footer{
+    background-color:  rgba(221, 191, 184, 0.514) ;
+}
+#copyright{
+    background-color: #7041418d;
+    color: rgb(209, 198, 188);
+}
+
+/* contact------------------------------------------------ */
+#contact-back{
+    background-color:rgba(221, 191, 184, 0.514) ;
+    
+
+}
+#contact-form input{
+    /* float:right; */
+    padding: 10px;
+    background-color: white;
+
+}
+#inner-form{
+    background-color: rgba(237, 226, 223, 0.514);
+}
+#inner-form input{
+    background-color: #d8bfbf60;
+}
+#inner-form textarea{
+    background-color: rgba(216, 191, 191, 0.378);
+}
+#pro-button{
+    background-color: #b1797960;
+  
+
+
+}
+#pro-button:hover{
+    border-color: #560808;;
+    transition: transform 0.3s ease;
+    background-color: #dac6c183
+
+}
+/* #pro-img{ */
+    /* transition: transform 0.3s ease;} */
+/* #pro-img:hover{
+    transform: scale(1.05);
+} */

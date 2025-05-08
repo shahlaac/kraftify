@@ -1,0 +1,23 @@
+<div class="group relative w-[400px] h-[450px] snap-start overflow-hidden rounded-2xl">
+    <!-- Shrinking image wrapper -->
+    <div class="absolute top-0 left-0 w-full h-full transition-all duration-500 group-hover:h-[225px] overflow-hidden z-10">
+      <img src="./images/3.jpg" alt="" class="w-full h-full object-cover rounded-2xl" />
+    </div>
+  
+    <!-- Overlay on hover -->
+    <div class="absolute inset-0 z-20 bg-black bg-opacity-60 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 space-y-4">
+      <div class="flex space-x-4 text-white text-2xl">
+        <i class="fas fa-heart hover:text-red-500 cursor-pointer"></i>
+        <i class="fas fa-eye hover:text-blue-400 cursor-pointer"></i>
+        <i class="fas fa-share hover:text-green-400 cursor-pointer"></i>
+      </div>
+      <button class="bg-white text-black px-4 py-2 rounded-full font-semibold hover:bg-gray-200 transition">View Details</button>
+    </div>
+  
+    <!-- Product Info -->
+    <div class="absolute bottom-0 w-full text-center bg-white bg-opacity-90 py-3 z-30">
+      <h1 class="text-lg font-semibold">WOODEN HOM DECORS</h1>
+      <h1 class="text-gray-600">$8.200</h1>
+    </div>
+  </div>
+  
